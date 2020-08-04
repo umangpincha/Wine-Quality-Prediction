@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Wine Quality Prediction</h2>
+  <form action="/predict" method="POST">
+
+    <div class="form-group">
+      <label for="fixed acidity">Fixed Acidity:</label>
+      <input type="text" class="form-control" id="fixed acidity" placeholder="Enter fixed acidity" name="fixed acidity">
+    </div>
+
+    <div class="form-group">
+      <label for="volatile acidity">Volatile acidity:</label>
+      <input type="text" class="form-control" id="volatile acidity" placeholder="Enter volatile acidity" name="volatile acidity">
+    </div>
+
+      <div class="form-group">
+      <label for="citric acid">Citric Acid:</label>
+      <input type="text" class="form-control" id="citric acid" placeholder="Enter citric acid" name="citric acid">
+    </div>
+
+       <div class="form-group">
+      <label for="residual sugar">residual sugar:</label>
+      <input type="text" class="form-control" id="residual sugar" placeholder="Enter residual sugar" name="residual sugar">
+    </div>
+
+       <div class="form-group">
+      <label for="chlorides"> chlorides:</label>
+      <input type="text" class="form-control" id="chlorides" placeholder="Enter chlorides" name="chlorides">
+    </div>
+
+       <div class="form-group">
+      <label for="free sulfur dioxide">free sulfur dioxide:</label>
+      <input type="text" class="form-control" id="free sulfur dioxide" placeholder="Enter free sulfur dioxide" name="free sulfur dioxide">
+    </div>
+
+       <div class="form-group">
+      <label for="total sulfur dioxide">total sulfur dioxide:</label>
+      <input type="text" class="form-control" id="total sulfur dioxide" placeholder="Enter total sulfur dioxide" name="total sulfur dioxide">
+    </div>
+
+       <div class="form-group">
+      <label for="density">Density:</label>
+      <input type="text" class="form-control" id="density" placeholder="Enter Density" name="density">
+    </div>
+
+      <div class="form-group">
+      <label for="pH">pH:</label>
+      <input type="text" class="form-control" id="pH" placeholder="Enter pH" name="pH">
+    </div>
+
+      <div class="form-group">
+      <label for="sulphates">sulphates:</label>
+      <input type="text" class="form-control" id="sulphates" placeholder="Enter sulphates" name="sulphates">
+    </div>
+    <div class="form-group">
+      <label for="alcohol">alcohol:</label>
+      <input type="text" class="form-control" id="alcohol" placeholder="Enter alcohol" name="alcohol">
+    </div>
+
+      <button type="submit" class="btn btn-default">Predict</button><p>
+  </form>
+</div>
+
+</body>
+</html>
